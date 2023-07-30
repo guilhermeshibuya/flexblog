@@ -1,0 +1,44 @@
+.qualidade {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px auto;
+}
+
+.qualidade__item {
+  flex: 1 1 300px;
+  margin: 20px 10px;
+}
+
+.qualidade__item h2 {
+  display: flex;
+  align-items: center;
+  font-size: 2.25rem;
+  color: var(--c2);
+  margin-bottom: 20px;
+}
+
+.qualidade__item h2::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.qualidade__item:nth-of-type(3n + 1) h2::before {
+  background-color: var(--purple);
+}
+
+.qualidade__item:nth-of-type(3n + 2) h2::before {
+  background-color: var(--pink);
+}
+
+.qualidade__item:nth-of-type(3n + 3) h2::before {
+  background-color: var(--blue1);
+}
+
+.qualidade__item p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: var(--c3);
+}

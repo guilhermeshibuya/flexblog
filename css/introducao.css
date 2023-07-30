@@ -1,0 +1,35 @@
+.introducao {
+  font-size: 3rem;
+  line-height: 1;
+  padding: 60px 10px;
+}
+
+.sobre {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 2px solid var(--blue2);
+  border-bottom: 2px solid var(--blue2);
+  padding: 60px 0;
+}
+
+.sobre__info {
+  flex: 2 1 300px;
+  margin: 0 10px;
+}
+
+.sobre__info h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.sobre__info p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: var(--c3);
+}
+
+.sobre__img {
+  flex: 1 1 160px;
+  margin: 0 10px;
+}
